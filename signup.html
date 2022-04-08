@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Kerala Tourism</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-custom fixed-top navbar-light navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand order-md-1 order-sm-1 order-lg-1" href="#"><img src="images/logo.png"></a>
+              <button class="navbar-toggler order-md-3 order-sm-3 order-lg-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse text-center navbar-collapse order-md-4 order-sm-4 order-lg-3" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-4 mb-lg-0 ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="districts.html">Districts</a>
+                  </li>
+                </ul>
+              </div>
+
+              <ul class="d-flex mb-0 order-md-2 order-sm-2 order-lg-4">
+                  
+                <li class="nav-item rounded-pill bg-dark px-3 me-2">
+                    <a class="nav-link text-light" href="signup.html">Signup</a>
+                  </li>
+                  <li class="nav-item px-3 rounded-pill bg-primary">
+                    <a class="nav-link text-light"  href="login.html" >Login</a>
+                  </li>
+              </ul>
+              
+            </div>
+          </nav>
+    </header>
+<!-- Header end -->
+   
+<!--Login-->
+<div class="signup" style="background-image: url(images/form-bg.jpg);">
+    <div class="container">
+        <div class="form-box">
+            <form class="form-custom" action="login.html" onsubmit="return check(this)">
+                <h2 class="text-primary text-center">Sign Up</h2>
+               
+                <div class="">
+                    <!-- <label for="signup-userName" class="form-label">Username</label> -->
+                    <input type="text" class="form-control" autocomplete="off" id="signup_userName" onkeyup="chckusername()" placeholder="Username">
+                    <label id="username_error" class="error-label"  style="color:red"></label>
+                </div>
+
+                <div class="">
+                    <!-- <label for="mobile">phone number</label> -->
+                    <input type="text" class="form-control" autocomplete="off" id="mobile" placeholder="Mobile number" onkeyup="chcknumber()">
+                    <label id="mobile_error" class="error-label" style="color:red"></label>
+                </div>
+
+                <div class="">
+                    <!-- <label for="signup-mail">Email address</label> -->
+                    <input type="text" class="form-control" autocomplete="off" id="signup-email" onkeyup="chckmail()" placeholder="E-mail">
+                    <label id="signup_mail_error" class="error-label" style="color:red"></label>
+                </div>
+                <div class="">
+                    <!-- <label for="pswd">Password</label> -->
+                    <input type="password" class="form-control" autocomplete="off" id="pswd" onkeyup="chckpassword()" onfocus="chckpassword()" placeholder="Password">
+                    <label id="pswd_error" class="error-label" style="color:red"></label>
+                    
+                    <div id="pswdmessage">
+                        
+                  <div class="row password_strength"  id="password_strength">
+                      <div class="col-sm-6"> <small>password strength</small></div> 
+                      <div class="col-sm-6">
+                        <div class="strength_meter text-center" id="strength_meter"></div></div>
+                    </div>
+                        <label class="mb-0 error-label">Password must contain the following:</label>
+                        <p class="error-label"><b><span id="letter" >A lowercase letter</span>/
+                        <span id="capital">A uppercase letter</span>/
+                        <span id="number">A number</span>/
+                        <span id="length">Minimum  8 characters</span></b></p>
+                      </div>
+                </div>
+                
+                <div class="mb-3">
+                    <!-- <label for="re-password">Confirm Password</label> -->
+                    <input type="password" class="form-control" id="re_password" placeholder="Confirm Password" onkeyup="pswd_confirm()" onfocus="pswd_confirm()">
+                    <label id="repswd_error" class="error-label" style="color:red"></label>
+                </div>
+                <!-- <div class="form-check  form-inline ps-0 mb-4">
+                    <input type="checkbox" id="Check1">
+                    <label for="Check1">I accept terms and conditions</label>
+                </div> -->
+                <button type="submit " class="btn btn-primary w-100 p-3 mx-auto rounded-pill">Sign Up</button>
+            </form>
+            <p class="text-center m-3">already have an account? <a href="login.html">log in here</a></p>
+        </div>
+    </div>
+</div>
+<!--login ends-->
+
+<footer class="bg-dark text-light footer-class">
+        <div class="container">
+            <div class="row">
+                   <div class="col-lg-3 col-md-6 col-sm-6">
+                        <img src="images/footer-logo.png" class="w-100 mb-5 footer-logo">
+
+                        <h5><b>Connect with us</b></h5>
+                            <ul class="ps-0 social-media">
+                                <li><a href=""><img src="images/youtube.png"></a></li>
+                                <li><a href=""><img src="images/twitter.png"></a></li>
+                                <li><a href=""><img src="images/facebook.png"></a></li>
+                                <li><a href=""><img src="images/linkedin.png"></a></li>
+                                <li><a href=""><img src="images/instagram.png"></a></li>
+                            </ul>
+                   </div>
+
+                   
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h5><b>Districts</b></h5>
+                        <ul class="ps-0">    
+                            <li><a href="">Alappuzha</a></li>
+                            <li><a href="">Ernakulam</a></li>
+                            <li><a href="">Idukki</a></li>
+                            <li><a href="">Kannur</a></li>
+                            <li><a href="">Kasaragod</a></li>
+                            <li><a href="">Kollam</a></li>
+                            <li><a href="">Kottayam</a></li>
+                            <li><a href="">Kozhikode</a></li>
+                            <li><a href="">Malappuram</a></li>
+                            <li><a href="">Palakkad</a></li>
+                            <li><a href="">Pathanamthitta</a></li>
+                            <li><a href="">Thiruvananthapuram</a></li>
+                            <li><a href="">Thrissur</a></li>
+                            <li><a href="">Wayanad</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                     <h5><b>Destinations</b></h5>
+                        <ul class="ps-0">
+                            <li><a href="">Kovalam</a></li>
+                            <li><a href="">Wayanad</a></li>
+                            <li><a href="">Periyar lake</a></li>
+                            <li><a href="">Athirapally falls</a></li>
+                            <li><a href="">St.angelo Fort</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h5><b>Top things to see</b></h5>
+                        <ul class="ps-0">
+                            <li><a href="">Beaches</a></li>
+                            <li><a href="">Hill stations</a></li>
+                            <li><a href="">Wildlife sanctuary</a></li>
+                            <li><a href="">Festivals</a></li>
+                        </ul>
+                    </div>
+
+            </div>
+        </div>
+</footer>
+
+</body>
+</html>

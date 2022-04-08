@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/bootstrap.min.js"></script>
+    <title>Kerala Tourism</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-custom fixed-top navbar-light navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand order-md-1 order-sm-1 order-lg-1" href="index.html"><img src="images/logo.png"></a>
+              <button class="navbar-toggler order-md-3 order-sm-3 order-lg-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse text-center navbar-collapse order-md-4 order-sm-4 order-lg-3" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-4 mb-lg-0 ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="districts.html">Districts</a>
+                  </li>
+                </ul>
+              </div>
+
+              <ul class="d-flex mb-0 order-md-2 order-sm-2 order-lg-4">
+                  
+                <li class="nav-item rounded-pill bg-dark px-3 me-2">
+                    <a class="nav-link text-light" href="signup.html">Signup</a>
+                  </li>
+                  <li class="nav-item px-3 rounded-pill bg-primary">
+                    <a class="nav-link text-light"  href="login.html" >Login</a>
+                  </li>
+              </ul>
+              
+            </div>
+          </nav>
+    </header>
+    <!-- Header end -->
+<!-- Login -->
+<!-- 
+<div class="modal fade custom-modal"  id="login" aria-hidden="true" aria-labelledby="login" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-warning modal-title"><b>Login</b></h3>
+                <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="" action="">
+                    <div class="mb-3">
+                        <label for="Email"><b>Email address</b></label>
+                        <input type="email" class="form-control" id="Email" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Email"><b>Password</b></label>
+                        <input type="password" class="form-control" id="Email" placeholder="">
+                    </div>
+                    <button type="submit " class="btn btn-warning w-100 p-2 mx-auto rounded-pill">Sign Up</button>
+                </form>
+                    <a href="" class="mt-2 d-block text-center text-light">Forgot password</a>
+                    <button class="btn btn-success mt-3 rounded-pill mx-auto d-block" data-bs-target="#signup" data-bs-toggle="modal">Create new account</button>
+
+
+            </div>
+        </div>
+      </div>
+</div> -->
+<!-- Login ends -->
+
+<!-- Signup -->
+<!-- 
+<div class="modal fade custom-modal"  id="signup" aria-hidden="true" aria-labelledby="signup" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-warning modal-title"><b>Sign Up</b></h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="" action="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="FirstName" class="form-label"><b>First Name</b></label>
+                                <input type="text" class="form-control" id="FirstName" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            
+                            <div class="mb-3">
+                                <label for="LasttName" class="form-label"><b>Last Name</b></label>
+                                <input type="text" class="form-control" id="LastName" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Email"><b>Email address</b></label>
+                        <input type="email" class="form-control" id="Email" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Email"><b>Password</b></label>
+                        <input type="password" class="form-control" id="Email" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <div class="row">
+                            <label class="col-3"><b>Gender</b></label>
+                            <div class="form-check ps-0 col-9">
+                                <input type="radio" name="Gender" id="Male" checked>
+                                <Label for="Male">Male</Label>
+                                <input type="radio" name="Gender" id="Female">
+                                <label for="Female">Female</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="dob"> <b>Date Of Birth</b></label>
+                        <input type="date" id="dob">
+                    </div>
+                    <div class="form-check  form-inline ps-0 mb-4">
+                        <input type="checkbox" id="Check1">
+                        <label for="Check1">I accept terms and conditions</label>
+                    </div>
+                    <button type="submit " class="btn btn-warning w-100 p-3 mx-auto rounded-pill">Sign Up</button>
+                </form>
+
+                
+            </div>
+        </div>
+      </div>
+</div> -->
+<!-- Signup ends -->
+
+
+    <!-- Slider -->
+    <div class="slider">
+        <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carouselslide">
+            <div class="carousel-inner"><!--carousel inner-->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="1" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="2" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselslide" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                  </div>
+
+
+                  <div class="carousel-item active" style="background-image: url(images/wp3500243.jpg);">
+                    <div class="carousel-caption">
+                        <h3 class="p-2 mb-0" style="background-color: #0d6dfdb6;">Welcome to Gods own country</h3>
+                        <p style="background-color: #292929b0;" class="p-3">Kerala, a state situated on the tropical Malabar Coast of southwestern India, is one of the most popular tourist destinations in the country. Named as one of the ten paradises of the world by National Geographic Traveler.
+                        <a href="">Read more</a>
+                        </p>
+                       
+                    </div>
+                </div>
+
+
+                  <div class="carousel-item" style="background-image: url(images/Meesapulimala.jpg);">
+                    <div class="carousel-caption">
+                        <h4 class="d-inline-block p-3 bg-primary">Meesapulimala</h4>
+                        <a href="" class="text-light"><h4 class=" d-inline-block p-3 bg-dark">Idukki</h4></a>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item" style="background-image: url(images/Bekal_Fort.jpg);">
+                    <div class="carousel-caption">
+                        <h4 class="d-inline-block p-3 bg-primary">Bekal Fort</h4>
+                        <a href="" class="text-light"><h4 class=" d-inline-block p-3 bg-dark">Kazargod</h4></a>
+                    </div>
+                </div>
+
+
+                
+                <div class="carousel-item" style="background-image: url(images/Vagamon.jpg);">
+                    <div class="carousel-caption">
+                        
+                        <h4 class="d-inline-block p-3 bg-primary">Vagamon</h4>
+                        <a href="" class="text-light"><h4 class=" d-inline-block p-3 bg-dark">Kottayam</h4></a>
+                    </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselslide" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselslide" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div> <!--carousel inner-->
+        </div>
+    </div>
+
+<!-- Slider end-->
+
+<!-- About kerala-->
+<section class="about">
+        <div class="container">
+                <div class="row align-items-center">
+
+                        <div class="col-lg-5">
+                            <img src="images/kerala_map.jpg" class="mx-auto w-100">
+                        </div>
+                        <div class="col-lg-7">
+                            <h2><b>About Kerala</b></h2>
+                            <p>Kerala is situated in the southwestern end of the Indian subcontinent. Kerala has a long history of art and cultural heritage and foreign trade with other countries. The state with the highest literacy rate in India, is noted for its achievements in education, health, gender equality, social justice, law and order. In addition to these, the state has the lowest infant mortality rate in the country.
+
+                                Kerala lies between the Arabian Sea in the West and the Western Ghats (Sahyadris) in the East with an area of 38863 sq km. It is one of the five states in the linguistic-cultural area known as South India. The neighbouring states of Kerala are Tamil Nadu and Karnataka. Mayyazhi (Mahe / Mahe) is a part of Pondicherry (Puducherry) and lies within Kerala. Though the Lakshadweeps in the Arabian Sea is part of the Union Territories, it has a close alliance with the linguistic and cultural heritage of Kerala.
+                                
+                                Before the independence of India, Kerala was one of the princely states in India. Later on 1 July 1949, the princely states of Travancore and Cochin united to form the Travancore-Cochin State. Later, When the Malabar region (formerly part of Madras state) was added to the Travancore-Cochin State. The state was formed on 1 November 1956.</p>
+                        </div>
+                </div>
+
+        </div>
+<div class="container-fluid">
+    
+<!---about kerala 2-->
+            <!---culture-->
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-12">
+                        <h5><b>Culture</b></h5>
+                        <p>The culture and heritage of Kerala is one that everyone must experience. The culture of Kerala is a combination of both Indian and Dravidian culture. Now days this culture is being influenced by the neighboring states as well. The main USP of Kerala is its performing arts like Kathakali, Mohiniyattam and Martial Art of Kalaripayattu. As for the heritage of Kerala, it can be said that this heritage holds a special and important place in the Indian history. Providing a national integrity is the Kerala Heritage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div style="background-image: url(images/culture.webp);" class="bg-attachment-custom">
+            </div>
+            </div>
+
+            
+
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-12 mt-4">
+                        <p>This culture and heritage of Kerala is reflected in its various art forms, martial arts, dresses, the people and cuisine. When in Kerala do not miss a cultural art performance. The visitors can enjoy the following art performances in Kerala.
+
+<br><br>Kathakali – A 300 year old dance that combines opera, ballet, masque and pantomime.
+
+<br>Mohiniyattam – The dance of a beautiful enchantress
+
+<br>Kalaripayattu – a martial art form that involves synchronizing the mind and body
+
+<br><br>Each of the festival in Kerala is celebrated with all its pomp and grandeur. The main festivals of Kerala include Onam, Vishu, Eid, Thrissur Pooram and many more. In some of these festivals like Pooram, the main aspect is the procession, where elephants are decorated and taken out to the temple grounds.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <!---culture ends-->
+        <!---weather-->
+<!--
+            <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <h5><b>Weather</b></h5>
+                                <p>
+                                Kerala experiences a tropical climate, as it is normally located at a distance of 80 from the equator. There are three types of seasons in Kerala - June-September South-West monsoon (Edavappathy), October - December North-East monsoon  (Thula Varsham) and summer season(March- May). The winter season in Kerala during the months of December and February is not a marked one, compared to other parts of India.  The climate of Kerala is characterized by mild winds and rapid monsoon showers.
+                                </p>
+                        </div>
+                    </div>
+            </div>
+
+  
+            <div class="row">
+                <div style="background-image: url(images/weather.jpg);" class="bg-attachment-custom">
+            </div>
+        -->
+<!---weather ends-->
+
+<!---about kerala 2 ends-->
+</div>
+</section>
+<!-- About kerala ends-->
+
+
+<!-- Top-destinations -->
+<section class="top-destinations bg-dark" > 
+    <h2 class="text-light text-center mb-4"><b>Top Destinations</b></h2>
+   <!-- Row -->
+   <div class="row g-0">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card bg-dark text-white">
+                    <img src="images/kovalam-destination.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                    <a href="" class="stretched-link "><h5 class="card-title p-2 d-inline-block bg-dark text-center">Kovalam</h5></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card bg-dark text-white">
+                    <img src="images/wayanad-destination.jpg" class="w-100">
+                    <div class="card-img-overlay">
+                        <a href="" class="stretched-link "><h5 class="card-title p-2 d-inline-block bg-dark text-center">Wayanad</h5></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card bg-dark text-white">
+                    <img src="images/Periyar-Lake - destination.jpg" class="w-100">
+                    <div class="card-img-overlay">
+                        <a href="" class="stretched-link "><h5 class="card-title p-2 d-inline-block bg-dark text-center">Periyar Lake</h5></a>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card bg-dark text-white">
+                    <img src="images/chinnar-wildlife-sanctuary-destinations.jpg" class="w-100">
+                    <div class="card-img-overlay">
+                        <a href="" class="stretched-link "><h5 class="card-title p-2 d-inline-block bg-dark text-center">chinnar wildlife sanctuary</h5></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card bg-dark text-white">
+                    <img src="images/Alleppey-destination.jpg" class="w-100">
+                    <div class="card-img-overlay">
+                        <a href="" class="stretched-link "><h5 class="card-title p-2 d-inline-block bg-dark text-center">Alleppey</h5></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card bg-dark text-white">
+                    <img src="images/athirappalli_destinations.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                    <a href="" class="stretched-link "><h5 class="card-title p-2 d-inline-block bg-dark text-center">Athirapally Falls</h5></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card bg-dark text-white">
+                    <img src="images/st_angelo_fort_kannur-destination.jpg" class="w-100">
+                    <div class="card-img-overlay">
+                        <a href="" class="stretched-link "><h5 class="card-title p-2 d-inline-block bg-dark text-center">st.angelo fort </h5></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card bg-dark text-white">
+                    <img src="images/thattekad-bird-sanctuary-destinations.jpg" class="w-100">
+                    <div class="card-img-overlay">
+                        <a href="" class="stretched-link "><h5 class="card-title p-2 d-inline-block bg-dark text-center">Thattekad bird sanctuary</h5></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+   <!-- Row ends -->
+
+</section>
+<!-- Top-destinations ends-->
+
+
+<!-- Experience Kerala -->
+<section class="experience">
+    <div class="container">
+        <h2 class="text-center mb-5"><b>Top things to see in Kerala</b></h2>
+        <div class="row experience-cards">
+             <div class="col-lg-3 col-md-6 col-sm-6  mb-sm-3">
+                 <div class="card text-dark bg-light text-center">
+                    <img src="images/marari-beach.jpg" class="card-img-bottom" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Beaches</b></h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark stretched-link">Explore</a>
+                    </div>
+                  </div>
+             </div>
+
+             <div class="col-lg-3 col-md-6 col-sm-6 mb-sm-3">
+                <div class="card text-dark bg-light text-center">
+                    <img src="images/Ponmudi-Kerala.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Hill stations</b></h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark stretched-link">Explore</a>
+                    </div>
+                  </div>
+             </div>
+
+             <div class="col-lg-3 col-md-6 col-sm-6 mb-sm-3">
+                <div class="card text-dark bg-light text-center">
+                    <img src="images/periyar-national-park.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Wildlife sanctuary</b></h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark stretched-link">Explore</a>
+                    </div>
+                  </div>
+             </div>
+
+             <div class="col-lg-3 col-md-6 col-sm-6 mb-sm-3">
+                <div class="card text-dark bg-light text-center">
+                    <img src="images/festivals-kerala.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Festivals</b></h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark stretched-link">Explore</a>
+                    </div>
+                  </div>
+             </div>
+        </div>
+    </div>
+</section>
+<!-- Experience Kerala ends -->
+
+
+<footer class="bg-dark text-light footer-class">
+        <div class="container">
+            <div class="row">
+                   <div class="col-lg-3 col-md-6 col-sm-6">
+                        <img src="images/footer-logo.png" class="w-100 mb-5 footer-logo">
+
+                        <h5><b>Connect with us</b></h5>
+                            <ul class="ps-0 social-media">
+                                <li><a href=""><img src="images/youtube.png"></a></li>
+                                <li><a href=""><img src="images/twitter.png"></a></li>
+                                <li><a href=""><img src="images/facebook.png"></a></li>
+                                <li><a href=""><img src="images/linkedin.png"></a></li>
+                                <li><a href=""><img src="images/instagram.png"></a></li>
+                            </ul>
+                   </div>
+
+                   
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h5><b>Districts</b></h5>
+                        <ul class="ps-0">    
+                            <li><a href="">Alappuzha</a></li>
+                            <li><a href="">Ernakulam</a></li>
+                            <li><a href="">Idukki</a></li>
+                            <li><a href="">Kannur</a></li>
+                            <li><a href="">Kasaragod</a></li>
+                            <li><a href="">Kollam</a></li>
+                            <li><a href="">Kottayam</a></li>
+                            <li><a href="">Kozhikode</a></li>
+                            <li><a href="">Malappuram</a></li>
+                            <li><a href="">Palakkad</a></li>
+                            <li><a href="">Pathanamthitta</a></li>
+                            <li><a href="">Thiruvananthapuram</a></li>
+                            <li><a href="">Thrissur</a></li>
+                            <li><a href="">Wayanad</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                     <h5><b>Destinations</b></h5>
+                        <ul class="ps-0">
+                            <li><a href="">Kovalam</a></li>
+                            <li><a href="">Wayanad</a></li>
+                            <li><a href="">Periyar lake</a></li>
+                            <li><a href="">Athirapally falls</a></li>
+                            <li><a href="">St.angelo Fort</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <h5><b>Top things to see</b></h5>
+                        <ul class="ps-0">
+                            <li><a href="">Beaches</a></li>
+                            <li><a href="">Hill stations</a></li>
+                            <li><a href="">Wildlife sanctuary</a></li>
+                            <li><a href="">Festivals</a></li>
+                        </ul>
+                    </div>
+
+            </div>
+        </div>
+</footer>
+
+</body>
+</html>

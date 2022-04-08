@@ -1,0 +1,204 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    list-style: none;
+}
+.custom-modal .modal-content{
+    background-color: #468aefe3;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+.custom-modal form label{
+    margin-bottom: 10px;
+}
+.custom-modal .modal-content input{
+    border-radius: 10px;
+}
+.navbar-custom{
+    background-color: #ffffffcb;
+}
+.navbar-custom .navbar-brand img{
+    max-width: 150px;
+}
+.slider .carousel-item{
+    background-size: cover !important;
+}
+.slider .carousel-item{
+    min-height: 100vh;
+}
+.bg-attachment-custom{
+background-attachment: fixed;
+height: 340px;
+background-size: cover;
+background-position: left;
+}
+/* About section */
+.about{
+    padding: 70px 0px 50px 0px;
+}
+/* About section ends */
+
+/* Experience */
+.experience{
+    padding: 70px 0px;
+    background-color: #e7ecf4;
+}
+.experience-cards .card{
+    box-shadow:  2px 0px 10px 3px #adadade3;
+    transition: 0.7s all;
+}
+.experience-cards .card a{
+    padding: 10px 20px;
+}
+.experience-cards .card:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.experience-cards .card:hover a{
+    background-color: white !important;
+    color: black !important;
+    }
+.experience-cards .card img{ 
+transition: 0.7s all;
+    }
+.experience-cards .card:hover img{
+filter: grayscale(.5);
+transform: scale(0.9);
+}
+  /* Experience ends */
+  /* top destinations */
+  .top-destinations{
+      padding: 70px 0px;
+      background-size: cover !important;
+  }
+  .top-destinations .card img{
+    filter: grayscale(0.7) blur(0px);
+    transition: 0.5s all;
+  }
+  .top-destinations .card .card-img-overlay a{
+      color: white;
+      margin-top: auto;
+  }
+  .top-destinations .card .card-img-overlay{
+      opacity: 0;
+      transition: 0.5s all;
+  }
+  .top-destinations .card:hover .card-img-overlay{
+    opacity: 1;
+
+  }
+  .top-destinations .card:hover img{
+      filter: grayscale(0) blur(1.3px);
+      transform: scale(0.9);
+  }
+  /* top destinations end*/
+
+
+  .footer-class{
+      padding: 70px 0px;
+  }
+  .footer-logo{
+      max-width: 150px;
+  }
+  .footer-class a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-class a:hover{
+   opacity: 0.7;
+}
+.social-media{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.social-media li{
+    margin:5px;
+}
+.social-media img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    padding: 7px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 50%;
+}
+
+.inner-banner{
+    background-size: cover !important;
+    background-position: center !important;
+}
+.inner-banner-details{
+    padding:200px 0px 80px 0px;
+}
+
+.districts{
+    padding: 70px 0px;
+}
+.districts .card img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.districts-inner{
+    padding: 70px 0px;
+}
+.place-details:not(:last-child){
+    padding-bottom: 50px;
+    border-bottom: 2px solid #ccc;
+}
+.place-details img{
+    height: 100%;
+    object-fit: cover;
+}
+
+/* login */
+.form-custom input{
+    padding: 12px;
+}
+.form-custom label{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.login{
+    min-height: 100vh;
+    padding: 150px 0px 100px 0px;
+   background-size: cover !important;
+}
+.form-box{
+    padding: 30px ;
+    max-width: 500px;
+    margin: auto;
+    background-color: #ffffffe3;
+    border-radius: 20px;
+}
+.form-custom h2{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(164, 164, 164);
+    margin-bottom: 30px;
+}
+.form-custom input[type="text"], .form-custom input[type="password"]{
+    box-shadow: none;
+    border: 1px solid #6dcbc7;
+}
+/* signup */
+
+.signup{
+    min-height: 100vh;
+    padding: 150px 0px 100px 0px;
+   background-size: cover !important;
+}
+/* .password_strength{
+    visibility: hidden;
+} */
+.strength_meter{
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.error-label{
+    font-size: 13px;
+    margin-top: 10px;
+}
