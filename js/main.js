@@ -108,7 +108,7 @@
               flag=1;
               if(pswd.value.length<=3){
                 strength.style.background="linear-gradient(90deg, rgb(251, 84, 84) 0%, rgb(255, 0, 0) 33%, rgba(255,255,255,1) 33%)"; 
-                strength.innerHTML="Bad";
+                strength.innerHTML="Poor";
                 pswd.style.borderColor="red";
               }
             }
